@@ -1,0 +1,37 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "first_name": "bala",
+        "last_name": "vicky",
+        "email": "bala@gmail.com"
+      },
+      {
+        "id": 2,
+        "first_name": "sara",
+        "last_name": "lucy",
+        "email": "sara@gmail.com"
+      },
+      {
+        "id": 3,
+        "first_name": "surya",
+        "last_name": "rao",
+        "email": "surya@gmail.com"
+      },
+      {
+        "id": 4,
+        "first_name": "tharun",
+        "last_name": "neruppu",
+        "email": "tharun@yahoo.com"
+      },
+      {
+        "id": 5,
+        "first_name": "indu",
+        "last_name": "mathi",
+        "email": "indu@yahoo.com"
+      }
+    ]
+  }
+
+
+ 

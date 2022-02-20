@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="wordcloud.css">
+    <title>WordCloud</title>
+   
+</head>
+
+<body>
+    <div class="container word-cloud-container d-flex flex-column justify-content-between">
+       <h1 class="text-center">Word Cloud</h1>
+        <div class="row" id="wordsContainer"></div>
+        <div class="row">
+            <div class="col-12 text-center">
+                <p class="error-msg" id="errorMsg"></p>
+                <input id="userInput" type="text" class="user-input" />
+                <button id="addBtn" class="add-btn ml-1" onclick="onAddWordToWordCloud()">
+                    Add
+                </button>
+            </div>
+        </div>
+    </div>
+    <script src="wordcloud.js"></script>
+</body>
+
+</html>
